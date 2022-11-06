@@ -1,0 +1,322 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace, sans-serif;
+    background-color: beige;
+}
+header{
+    width: 100%;
+    height: 112px;
+    position: fixed;
+    top: 0;
+    background-color: brown;
+}
+header div{
+    float: left;
+    justify-content: space-between;
+}
+header .logo{
+    margin-left: 0px;
+    padding: 0px;
+}
+header .nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 100px;
+}
+header .nav ul{
+    list-style: none;
+}
+header .nav ul li{
+    float: left;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+header .nav ul li a{
+    text-decoration: none;
+    color: brown;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+header .nav ul li a:hover{
+    color: #7f97ff;
+}
+.checkbtn{
+    display: none;
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: -170px;
+}
+#check{
+    display: none;
+}
+
+/*Section One Start*/
+.section1{
+    background-color: rgba(0, 0, 0, 0.161);
+    text-emphasis-color: white;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 75px;
+}
+.half1, .half2{
+    width: 50%;
+}
+.half1{
+    padding-right: 60px;
+    padding-left: 60px;
+}
+.half1 h3{
+    color: brown;
+}
+.half2 img{
+    max-width: 100%;
+    height: auto;
+}
+.half1 h1{
+    font-size: 50px;
+    color: brown;
+}
+.half1 p{
+    color: brown;
+}
+.half1 input{
+    padding: 20px 15px;
+    color: black;
+    background-color: brown;
+    outline: none;
+    border: 1px;
+}
+.half1 input:hover{
+    box-shadow: 5px 10px 30px;
+    transition: all 0.5s;
+}
+/*Section One End*/
+
+/*Section Two Start*/
+.section2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2 div{
+    width: 40%;
+}
+.section2 img{
+    width: 70%;
+}
+.text2 h3{
+    font-weight: normal;
+    color: brown ;
+    font-size: 15px;
+}
+.text2 h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+.text2 p{
+    font-size: 16px;
+    color: brown;
+    width: 80%;
+}
+.text2 input{
+    font-size: 12px;
+    padding: 8px 15px;
+    outline: none;
+    color: black;
+    background-color: brown;
+}
+.text2 input:hover{
+    box-shadow: 5px 10px 30px;
+    transition: all 0.5s
+}
+.section2{
+    background-color: rgb(231, 206, 197);
+}
+/*Section Two End*/
+
+/*Section Three Start*/
+.section3{
+    width: 100%;
+    height: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+.firsttext h1{
+    font-size: 40px;
+}
+.firsttext p{
+    width: 670px;
+    color: black;
+    margin: 0 auto;
+}
+
+.service{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 100px;
+    background-color: beige;
+}
+.ser1, .ser2{
+    width: 100%;
+    overflow: hidden;
+}
+.ser1 div, .ser2 div{
+    width: 32%;
+    float: left;
+    padding: 5px;
+    margin: 0 auto;
+}
+.service input{
+    padding: 10px 15px;
+    color: black;
+    background-color: brown;
+    outline: none;
+    border: 1px;
+}
+.service input:hover{
+    box-shadow: 5px 10px 30px;
+    transition: all 0.5s;
+}
+.service div:hover{
+    color: rgb(203, 147, 147);
+}
+/*Section Three End*/
+/*Section Four Start*/
+.section4{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(203, 147, 147);;
+}
+.section4 div{
+    float: left;
+    width: 20%;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    left: 270px;
+}
+.section4 h1{
+    font-size: 30px;
+}
+
+.section4 h1,p{
+    text-align: center;
+}
+/*Section Four End*/
+/*portfolio part start*/
+.section5{
+    width: 100%;
+    box-sizing: border-box;
+}
+.section5 .text3{
+    text-align: center;
+}
+.section5 .text3 h1{
+    font-size: 40px;
+    color: rgb(0,0,0, 0.9);
+}
+.section5 .text3 p{
+    color:  rgb(0,0,0, 0.9);
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+.section5 .img{
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.section5 .img div{
+    width: 240px;
+    height: 239px;
+    padding-bottom: 40px;
+    padding-right: 70px;
+}
+/*portfolio part end*/
+/*footer start*/
+footer{
+    background-color: brown;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    color: black;
+    margin-top: 100px;
+}
+footer .foot{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+footer .foot .foot1 p{
+    text-align: left;
+}
+footer .foot .foot1 input{
+    font-size: 12px;
+    outline: none;
+    border: none;
+    padding: 10px 100px 10px 10px;
+}
+footer .foot .foot1 button{
+    
+    background-color: #8293ff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 9px 20px;
+}
+footer .foot .foot1 i{
+    font-size: 15px;
+    cursor: pointer;
+    padding: 2px 5px;
+}
+/*footer end*/
+@media (max-width:768px){
+    header {
+        width: 100%;
+        height: auto;
+    }
+    header .logo{
+        margin-left: 30px;
+        padding: 20px;
+    }
+    .checkbtn{
+        display: block;
+    }
+    header .nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: bisque;
+        top: 54px;
+        left: -200%;
+        transition: all .5s;
+    }
+    header .nav ul li{
+        line-height: 30px;
+        clear: both;
+        margin-top: 15px;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    header .nav ul li a{
+        font-size: 20px;
+        text-align: center;
+    }
+}
